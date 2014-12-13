@@ -1,15 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="-676" y="-539">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="2">
-        <field name="OBJECT">UP</field>
-      </block>
-    </value>
+  <block type="controls_whileUntil" id="150" inline="false" x="-498" y="-428">
+    <field name="MODE">WHILE</field>
     <next>
-      <block type="oled_drawtext" id="54">
-        <field name="TEXT">QUINN HAS A BEARD</field>
+      <block type="oled_drawtext" id="136">
+        <field name="TEXT">HI QUINN </field>
       </block>
     </next>
+  </block>
+  <block type="sensor_object" id="157" x="-461" y="-403">
+    <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
