@@ -1,10 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="150" inline="false" x="-498" y="-428">
-    <field name="MODE">WHILE</field>
-    <next>
-      <block type="oled_drawtext" id="136">
-        <field name="TEXT">HI QUINN </field>
-      </block>
-    </next>
+  <block type="oled_drawtext" id="136" x="-337" y="-248">
+    <field name="TEXT">HI QUINN </field>
   </block>
 </xml>
