@@ -9,15 +9,24 @@
     <statement name="DO">
       <block type="movement_forward" id="135">
         <next>
-          <block type="movement_forward" id="145">
+          <block type="movement_leftmotor" id="241" inline="true">
+            <value name="MOVLEFT">
+              <block type="sensor_object" id="271">
+                <field name="OBJECT">LEFTFRONT</field>
+              </block>
+            </value>
             <next>
-              <block type="movement_reverse" id="155">
+              <block type="movement_forward" id="145">
                 <next>
-                  <block type="movement_left" id="165">
+                  <block type="movement_reverse" id="155">
                     <next>
-                      <block type="movement_forward" id="175">
+                      <block type="movement_left" id="165">
                         <next>
-                          <block type="movement_stutter" id="185"></block>
+                          <block type="movement_forward" id="175">
+                            <next>
+                              <block type="movement_stutter" id="185"></block>
+                            </next>
+                          </block>
                         </next>
                       </block>
                     </next>
