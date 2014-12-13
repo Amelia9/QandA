@@ -11,10 +11,11 @@
       </block>
     </value>
     <next>
-      <block type="oled_drawtext" id="1">
-        <field name="TEXT">fdhugfrpl[efd;lfv[]m ;./,l;gt5'[pg;;.,,m</field>
+      <block type="oled_cleardisplay" id="125">
         <next>
-          <block type="oled_cleardisplay" id="125"></block>
+          <block type="oled_drawtext" id="1">
+            <field name="TEXT">fdhugfrpl[efd;lfv[]m ;./,l;gt5'[pg;;.,,m</field>
+          </block>
         </next>
       </block>
     </next>
